@@ -6,7 +6,7 @@ const { copyFile, mkdir, readdir } = fsPromises;
 
 // 실제 애플리케이션의 public 폴더 경로
 const sourceDir = path.resolve('packages/app/public');
-// Storybook의 public 폴더 경로
+// 복사해서 넣고자 하는 타겟의 public 폴더 경로
 const targetDir = path.resolve('packages/storybook/public');
 
 // 개별 파일을 복사하는 비동기 함수
